@@ -1,0 +1,81 @@
+#     Product Information     #
+#-----------------------------#
+#      Author: CamChua_VN     #
+#        Version: v1.5        #
+#    Support: 1.10 -> 1.19.3  #
+#                             #
+#  SẢN PHẨM CỦA DI HOA STORE  #
+#-----------------------------#
+
+# Our Website: www.dihoastore.com
+# Email: dihoastore.mc@gmail.com
+# Fanpage: www.facebook.com/dihoastore/
+
+# Key License / Hướng dẫn cài: https://bit.ly/3gJtsbp
+license: "BÙM BÙM CHÍU CHÍU CẦN CC LICENSE"
+
+# Placeholder sử dụng cho Board: %PhoBan_prefix% - Hiển thị tên của phó bản
+#                                %PhoBan_time% - Đếm ngược thời gian phòng chơi
+#                                %PhoBan_minplayers% - Người chơi tối thiểu
+#                                %PhoBan_maxplayers% - Người chơi tối đa của phòng
+#                                %PhoBan_<room name>_time% - Hiển thị thời gian của phòng
+#                                %PhoBan_<room name>_status% - Hiển thị trạng thái của phòng
+#                                %PhoBan_<room name>_minplayers% - Hiển thị số người tối thiểu của phòng
+#                                %PhoBan_<room name>_maxplayers% - Hiển thị số người tối đa của phòng
+
+Settings:
+  # Lệnh được phép dùng khi trong phó bản
+  CommandWhitelist:
+    - "menu"
+    - "tp(.*)"
+    - "feed"
+    - "heal"
+    - "msg"
+    - "shop"
+
+  # Thời gian countdown khi bắt đầu phó bản (tính bằng giây)
+  StartCountdown: 15
+
+  # Thời gian countdown để qua đợt quái tiếp theo (tính bằng giây)
+  StageCountdown: 15
+
+  # Thời gian tự rời phó bản khi hoàn thành (tính bằng giây)
+  QuitCountdown: 5
+
+  # Khoảng cách quái sẽ xuất hiện theo từng đợt
+  SpawnRadius: 2
+
+  # Số lượt tham gia phó bản mặc định mỗi ngày của người chơi
+  DefaultTurn: 1
+  # Nếu để là day thì mỗi khi qua ngày mới sẽ cấp 1 lượt
+  # Nếu để là hour thì mỗi giờ sẽ cấp 1 lượt
+  # Số lượt cấp được tính theo DefaultTurn:
+  AutoReset: day
+
+  CommandAliases:
+    - "pb"
+
+  # Phần thưởng ở dạng Command cho toàn bộ người chơi khi hoàn tất phó bản
+  RewardCommand:
+    - eco give <player> 5000
+
+  # Tự động dịch chuyển lại vị trí quái khi qua đợt quái mới
+  TeleportNewStage: false
+
+  # Khi chết sẽ cho người chơi ở trạng thái bảo vệ
+  RespawnProtect: 3
+
+  # Tự hồi sinh trong phó bản
+  Respawn:
+    # Bật/Tắt tính năng
+    Enable: true
+
+    # Số lượt tự hồi sinh trong phó bạn, khi hết lượt sẽ tự động thua phó bản
+    # Ngoài ra có thể thêm perm cho người chơi phoban.respawn.<amount> thì lượt hồi sinh của người chơi sẽ tính theo perm
+    Amount: 2
+
+    # Countdown khi hồi sinh (tính bằng giây)
+    Countdown: 3
+
+  # Khi người chơi đang đi phó bản chết ở đâu thì sẽ hồi sinh lại ở chỗ đó
+  Checkpoint: true

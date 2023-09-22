@@ -1,0 +1,474 @@
+EditorGui:
+  Title: "&lTuỳ Chỉnh Phó Bản | <name>"
+  Rows: 6
+
+  MobLoreFormat: " &7- &fx<amount> &e<mobs>"
+
+  Content:
+    none:
+      ID: stained_glass_pane
+      Data: 15
+      Name: "&r"
+      Slot: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 33, 35, 36, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52]
+    editplayer:
+      ID: skull_item
+      Data: 3
+      Name: "&eTùy chỉnh Người tham gia"
+      Lore:
+        - ""
+        - " &fMax players: &e<max_players>"
+        - ""
+        - "&fClick vào đây để chỉnh sửa"
+      Slot: [10]
+      ClickType: EditPlayer
+    editprefix:
+      ID: name_tag
+      Name: "&eTùy chỉnh Prefix của phòng"
+      Lore:
+        - ""
+        - " &fPrefix: &e<prefix>"
+        - ""
+        - "&fClick vào đây để chỉnh sửa"
+      Slot: [12]
+      ClickType: EditPrefix
+    edittime:
+      ID: watch
+      Name: "&eTùy chỉnh Thời gian diễn ra"
+      Lore:
+        - ""
+        - " &fHiện đang để: &e<time> phút"
+        - ""
+        - "&fClick vào đây để chỉnh sửa"
+      Slot: [14]
+      ClickType: EditTime
+    editreward:
+      ID: chest
+      Name: "&eTùy chỉnh Phần thưởng"
+      Lore:
+        - "&fClick vào đây để chỉnh sửa"
+      Slot: [15]
+      ClickType: EditReward
+    editmob1:
+      ID: ink_sack
+      Data: 8
+      Name: "&eTùy chỉnh Quái Đợt 1"
+      Lore:
+        - "&fBấm vào để chỉnh quái"
+        - ""
+        - "&fQuái của đợt 1:"
+        - "<mob1>"
+      Slot: [28]
+      Edited:
+        ID: ink_sack
+        Data: 10
+        Name: "&eTùy chỉnh Quái Đợt 1"
+        Lore:
+          - "&fBấm vào để chỉnh quái"
+          - ""
+          - "&fQuái của đợt 1:"
+          - "<mob1>"
+      ClickType: EditMob1
+    editmob2:
+      ID: ink_sack
+      Data: 8
+      Amount: 2
+      Name: "&eTùy chỉnh Quái Đợt 2"
+      Lore:
+        - "&fBấm vào để chỉnh quái"
+        - ""
+        - "&fQuái của đợt 2:"
+        - "<mob2>"
+      Slot: [29]
+      Edited:
+        ID: ink_sack
+        Data: 10
+        Amount: 2
+        Name: "&eTùy chỉnh Quái Đợt 2"
+        Lore:
+          - "&fBấm vào để chỉnh quái"
+          - ""
+          - "&fQuái của đợt 2:"
+          - "<mob2>"
+      ClickType: EditMob2
+    editmob3:
+      ID: ink_sack
+      Data: 8
+      Amount: 3
+      Name: "&eTùy chỉnh Quái Đợt 3"
+      Lore:
+        - "&fBấm vào để chỉnh quái"
+        - ""
+        - "&fQuái của đợt 3:"
+        - "<mob3>"
+      Slot: [30]
+      Edited:
+        ID: ink_sack
+        Data: 10
+        Amount: 3
+        Name: "&eTùy chỉnh Quái Đợt 3"
+        Lore:
+          - "&fBấm vào để chỉnh quái"
+          - ""
+          - "&fQuái của đợt 3:"
+          - "<mob3>"
+      ClickType: EditMob3
+    editmob4:
+      ID: ink_sack
+      Data: 8
+      Amount: 4
+      Name: "&eTùy chỉnh Quái Đợt 4"
+      Lore:
+        - "&fBấm vào để chỉnh quái"
+        - ""
+        - "&fQuái của đợt 4:"
+        - "<mob4>"
+      Slot: [31]
+      Edited:
+        ID: ink_sack
+        Data: 10
+        Amount: 4
+        Name: "&eTùy chỉnh Quái Đợt 4"
+        Lore:
+          - "&fBấm vào để chỉnh quái"
+          - ""
+          - "&fQuái của đợt 4:"
+          - "<mob4>"
+      ClickType: EditMob4
+    editmob5:
+      ID: ink_sack
+      Data: 8
+      Amount: 5
+      Name: "&eTùy chỉnh Quái Đợt 5"
+      Lore:
+        - "&fBấm vào để chỉnh quái"
+        - ""
+        - "&fQuái của đợt 5:"
+        - "<mob5>"
+      Slot: [32]
+      Edited:
+        ID: ink_sack
+        Data: 10
+        Amount: 5
+        Name: "&eTùy chỉnh Quái Đợt 5"
+        Lore:
+          - "&fBấm vào để chỉnh quái"
+          - ""
+          - "&fQuái của đợt 5:"
+          - "<mob5>"
+      ClickType: EditMob5
+    editmob6:
+      ID: ink_sack
+      Data: 8
+      Amount: 6
+      Name: "&eTùy chỉnh Quái Đợt 6"
+      Lore:
+        - "&fBấm vào để chỉnh quái"
+        - ""
+        - "&fQuái của đợt 6:"
+        - "<mob6>"
+      Slot: [37]
+      Edited:
+        ID: ink_sack
+        Data: 10
+        Amount: 6
+        Name: "&eTùy chỉnh Quái Đợt 6"
+        Lore:
+          - "&fBấm vào để chỉnh quái"
+          - ""
+          - "&fQuái của đợt 6:"
+          - "<mob6>"
+      ClickType: EditMob6
+    editmob7:
+      ID: ink_sack
+      Data: 8
+      Amount: 7
+      Name: "&eTùy chỉnh Quái Đợt 7"
+      Lore:
+        - "&fBấm vào để chỉnh quái"
+        - ""
+        - "&fQuái của đợt 7:"
+        - "<mob7>"
+      Slot: [38]
+      Edited:
+        ID: ink_sack
+        Data: 10
+        Amount: 7
+        Name: "&eTùy chỉnh Quái Đợt 7"
+        Lore:
+          - "&fBấm vào để chỉnh quái"
+          - ""
+          - "&fQuái của đợt 7:"
+          - "<mob7>"
+      ClickType: EditMob7
+    editmob8:
+      ID: ink_sack
+      Data: 8
+      Amount: 8
+      Name: "&eTùy chỉnh Quái Đợt 8"
+      Lore:
+        - "&fBấm vào để chỉnh quái"
+        - ""
+        - "&fQuái của đợt 8:"
+        - "<mob8>"
+      Slot: [39]
+      Edited:
+        ID: ink_sack
+        Data: 10
+        Amount: 8
+        Name: "&eTùy chỉnh Quái Đợt 8"
+        Lore:
+          - "&fBấm vào để chỉnh quái"
+          - ""
+          - "&fQuái của đợt 8:"
+          - "<mob8>"
+      ClickType: EditMob8
+    editmob9:
+      ID: ink_sack
+      Data: 8
+      Amount: 9
+      Name: "&eTùy chỉnh Quái Đợt 9"
+      Lore:
+        - "&fBấm vào để chỉnh quái"
+        - ""
+        - "&fQuái của đợt 9:"
+        - "<mob9>"
+      Slot: [40]
+      Edited:
+        ID: ink_sack
+        Data: 10
+        Amount: 9
+        Name: "&eTùy chỉnh Quái Đợt 9"
+        Lore:
+          - "&fBấm vào để chỉnh quái"
+          - ""
+          - "&fQuái của đợt 9:"
+          - "<mob9>"
+      ClickType: EditMob9
+    editmob10:
+      ID: ink_sack
+      Data: 8
+      Amount: 10
+      Name: "&eTùy chỉnh Quái Đợt 10"
+      Lore:
+        - "&fBấm vào để chỉnh quái"
+        - ""
+        - "&fQuái của đợt 10:"
+        - "<mob10>"
+      Slot: [41]
+      Edited:
+        ID: ink_sack
+        Data: 10
+        Amount: 10
+        Name: "&eTùy chỉnh Quái Đợt 10"
+        Lore:
+          - "&fBấm vào để chỉnh quái"
+          - ""
+          - "&fQuái của đợt 10:"
+          - "<mob10>"
+      ClickType: EditMob10
+    editboss:
+      ID: monster_egg
+      Data: 1
+      Name: "&eTùy chỉnh BOSS phó bản"
+      Lore:
+        - "&fBấm vào để chỉnh Boss"
+        - ""
+        - "&fBoss đã thiết lập:"
+        - " &7- &fx<boss_amount> &e<boss_type>"
+      Slot: [34]
+      ClickType: EditBoss
+    deleteroom:
+      ID: wool
+      Data: 14
+      Name: "&8[&c&l✘&8] &cXóa phòng chơi này"
+      Lore: []
+      Slot: [45]
+      ClickType: DeleteRoom
+    confirm:
+      ID: wool
+      Data: 13
+      Name: "&8[&a&l✔&8] &aHoàn tất chỉnh sửa"
+      Lore: []
+      Slot: [53]
+      ClickType: Confirm
+    editspawn:
+      ID: bed
+      Name: "&eChỉnh vị trí dịch chuyển"
+      Lore:
+        - "&fClick vào để lưu vị trí"
+        - "&fđang đứng làm chỗ spawn"
+        - ""
+        - "&fHiện tại: &e<spawn>"
+        - ""
+        - "&aĐây là vị trí mà người"
+        - " &achơi khi vào phó bản"
+        - "&asẽ được dịch chuyển đến"
+      Slot: [11]
+      ClickType: EditSpawn
+    edittype:
+      ID: nether_star
+      Name: "&eChỉnh Type phòng chơi"
+      Lore:
+        - "&fClick vào để đặt Type"
+        - ""
+        - "&fType hiện tại: &e<type>"
+        - ""
+        - "&aNếu các phòng chơi được"
+        - "&ađặt cùng một Type thì sẽ"
+        - "&ahiện chung một phó bản"
+      Slot: [16]
+      ClickType: EditType
+
+
+RewardGui:
+  Title: "&lChỉnh Phần Thưởng | <name>"
+  Rows: 5
+
+  RewardSlot: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25]
+  Format:
+    - "&aChance hiện tại: &e<chance>%"
+    - ""
+    - "&eRight-Click: &fđể xóa"
+    - "&eLeft-Click: &fđể chỉnh"
+
+  Content:
+    none:
+      ID: stained_glass_pane
+      Data: 15
+      Name: "&r"
+      Slot: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40, 42, 43, 44]
+    rewardamount:
+      ID: paper
+      Name: "&eChỉnh Số Lượng Phần Thưởng"
+      Lore:
+        - "&fBấm vào để chỉnh số lượng"
+        - ""
+        - "&fHiện tại: &e<reward_amount>"
+        - ""
+        - "&aĐây là giới hạn số món đồ"
+        - "&amà mỗi người chơi sẽ nhận"
+        - "&asau khi đánh xong phó bản"
+      Slot: [39]
+      ClickType: RewardAmount
+    confirm:
+      ID: wool
+      Data: 13
+      Name: "&8[&a&l✔&8] &aHoàn tất chỉnh sửa"
+      Lore: []
+      Slot: [41]
+      ClickType: Confirm
+
+PhoBanGui:
+  Title: "&lChọn Phó Bản"
+  Rows: 5
+
+  PlayerFormat: "&7 - &6<player>"
+
+  RoomSlot: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34]
+
+  Blank:
+    ID: stained_glass_pane
+    Data: 15
+    Name: "&r"
+    Slot: [-1]
+
+  NextPage:
+    ID: arrow
+    Name: "&6&l&lNext Page"
+    Slot: [41]
+  PreviousPage:
+    ID: arrow
+    Name: "&6&l&lPrevious Page"
+    Slot: [39]
+
+  WaitingRoom:
+    ID: stained_clay
+    Data: 13
+    Name: "&fPhó bản: &r<prefix>"
+    Lore:
+      - "&7&m                         "
+      - "&fNgười chơi: &e<current>/<max> &fplayers"
+      - "<players>"
+      - ""
+      - "&fThời gian: &a<time>"
+      - ""
+      - "&fTrạng thái: &a<status>"
+      - "&7&m                         "
+  StartingRoom:
+    ID: stained_clay
+    Data: 4
+    Name: "&fPhó bản: &r<prefix>"
+    Lore:
+      - "&7&m                         "
+      - "&fNgười chơi: &e<current>/<max> &fplayers"
+      - "<players>"
+      - ""
+      - "&fThời gian: &a<time>"
+      - ""
+      - "&fTrạng thái: &a<status>"
+      - "&7&m                         "
+  PlayingRoom:
+    ID: stained_clay
+    Data: 14
+    Name: "&fPhó bản: &r<prefix>"
+    Lore:
+      - "&7&m                         "
+      - "&fNgười chơi: &e<current>/<max> &fplayers"
+      - "<players>"
+      - ""
+      - "&fThời gian: &a<time>"
+      - ""
+      - "&fTrạng thái: &a<status>"
+      - "&7&m                         "
+
+  StatusFormat:
+    WAITING: "&aChưa bắt đầu"
+    STARTING: "&6Đang chuẩn bị"
+    PLAYING: "&cĐã bắt đầu"
+
+  TimeFormat:
+    Minute: "<minute> phút"
+    Second: "<second> giây"
+
+ChooseTypeGui:
+  Title: "&lChọn Phó Bản"
+  Rows: 5
+
+  TypeSlot: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34]
+
+  Blank:
+    ID: stained_glass_pane
+    Data: 15
+    Name: "&r"
+    Slot: [-1]
+
+  NextPage:
+    ID: arrow
+    Name: "&6&l&oNext Page"
+    Slot: [41]
+  PreviousPage:
+    ID: arrow
+    Name: "&6&l&oPrevious Page"
+    Slot: [39]
+
+  TypeFormat:
+    ID: iron_sword
+    Name: "&fPhó Bản: &e&l<type>"
+    Lore:
+      - ""
+      - "&e» Thông tin của phó bản"
+      - ""
+      - " &7&oViết thông tin tại đây!"
+      - ""
+      - "&7Trạng thái: &a<status>"
+      - ""
+      - "&e» Phần thưởng hoàn thành"
+      - ""
+      - " &7- &ax64 &fviên kim cương"
+      - "    &7&o(có thể tùy chỉnh)"
+      - ""
+      - "&aClick vào đây để chọn phòng"
+
+  Format:
+    NoTurn: "&cĐã hết lượt"
+    Join: "&aCó thể tham gia"

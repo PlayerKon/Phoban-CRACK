@@ -1,0 +1,123 @@
+EditPlayer: "&eNhập số lượng người chơi muốn đặt &8(&7Chat &fcancel &7để huỷ&8)"
+EditPrefix: "&eNhập prefix cho phòng chơi &8(&7Chat &fcancel &7để huỷ&8)"
+EditTime: "&eNhập thời gian muốn chỉnh (phút) &8(&7Chat &fcancel &7để huỷ&8)"
+NotInt: "&cBạn cần phải nhập vào đây một con số"
+Error: "&cUi, đã xảy ra lỗi: <error>"
+
+EditMob_Step1: "&eChọn vị trí &fMob Spawn &ebằng cách đập vào vị trí đó với &fBlaze Rod"
+EditMob_Step2: "&eHãy nhập vào khung Chat: &aadd&7, &aremove&7, &aexit"
+EditMob_Step3: "&eNhập tên quái (MythicMobs) muốn Spawn"
+EditMob_Step4: "&eNhập số lượng quái mà bạn muốn Spawn"
+EditMob_Step5: "&eNhập số thời gian cho đợt này (tính bằng phút)"
+
+EditBoss_Step1: "&eChọn vị trí &fBoss Spawn &ebằng cách đập vào vị trí đó với &fBlaze Rod"
+EditBoss_Step2: "&eHãy nhập vào khung Chat: &aadd&7, &aremove&7, &aexit"
+EditBoss_Step3: "&eNhập tên Boss (MythicMobs) muốn Spawn"
+EditBoss_Step4: "&eNhập số lượng Boss mà bạn muốn Spawn"
+EditBoss_Step5: "&eNhập số thời gian cho đợt này (tính bằng phút)"
+
+RemoveMob: "&8[&a&l✔&8] &aBạn đã xóa Mob thành công"
+DeleteRoom: "&8[&a&l✔&8] &aBạn đã xoá phòng chơi thành công"
+EditChance: "&eHãy nhập tỉ lệ thưởng cho món đồ này"
+EditRewardAmount: "&eNhập số lượng phần thưởng mà người chơi nhận được"
+NotPlayer: "&cBạn không phải là người chơi"
+NoPermissions: "&cBạn không có quyền làm điều này!"
+EditType: "&eNhập loại phòng muốn chỉnh &8(&7Chat &fcancel &7để huỷ&8)"
+
+StartCountdown:
+  15: "&8[&c&l⚒&8] &ePhó bản sẽ được bắt đầu sau &f15 &egiây"
+  5: "&8[&c&l⚒&8] &ePhó bản sẽ được bắt đầu sau &f5 &egiây"
+  4: "&8[&c&l⚒&8] &ePhó bản sẽ được bắt đầu sau &f4 &egiây"
+  3: "&8[&c&l⚒&8] &ePhó bản sẽ được bắt đầu sau &f3 &egiây"
+  2: "&8[&c&l⚒&8] &ePhó bản sẽ được bắt đầu sau &f2 &egiây"
+  1: "&8[&c&l⚒&8] &ePhó bản sẽ được bắt đầu sau &f1 &egiây"
+
+TimeRemaining:
+  300: "&8[&c&l⚒&8] &eThời gian của phó bản còn &f5 &ephút"
+  240: "&8[&c&l⚒&8] &eThời gian của phó bản còn &f4 &ephút"
+  180: "&8[&c&l⚒&8] &eThời gian của phó bản còn &f3 &ephút"
+  120: "&8[&c&l⚒&8] &eThời gian của phó bản còn &f2 &ephút"
+  60: "&8[&c&l⚒&8] &eThời gian của phó bản còn &f1 &ephút"
+  30: "&8[&c&l⚒&8] &eThời gian của phó bản còn &f30 &egiây"
+  15: "&8[&c&l⚒&8] &eThời gian của phó bản còn &f15 &egiây"
+  5: "&8[&c&l⚒&8] &eThời gian của phó bản còn &f5 &egiây"
+  4: "&8[&c&l⚒&8] &eThời gian của phó bản còn &f4 &egiây"
+  3: "&8[&c&l⚒&8] &eThời gian của phó bản còn &f3 &egiây"
+  2: "&8[&c&l⚒&8] &eThời gian của phó bản còn &f2 &egiây"
+  1: "&8[&c&l⚒&8] &eThời gian của phó bản còn &f1 &egiây"
+
+StageCountdown:
+  15: "&8[&c&l⚒&8] &eĐợt quái tiếp theo sẽ xuất hiện sau &f15 &egiây"
+  5: "&8[&c&l⚒&8] &eĐợt quái tiếp theo sẽ xuất hiện sau &f5 &egiây"
+  4: "&8[&c&l⚒&8] &eĐợt quái tiếp theo sẽ xuất hiện sau &f4 &egiây"
+  3: "&8[&c&l⚒&8] &eĐợt quái tiếp theo sẽ xuất hiện sau &f3 &egiây"
+  2: "&8[&c&l⚒&8] &eĐợt quái tiếp theo sẽ xuất hiện sau &f2 &egiây"
+  1: "&8[&c&l⚒&8] &eĐợt quái tiếp theo sẽ xuất hiện sau &f1 &egiây"
+
+StageTime:
+  15: "&8[&c&l⚒&8] &eThời gian đợt này còn &f15 &egiây"
+  5: "&8[&c&l⚒&8] &eThời gian đợt này còn &f5 &egiây"
+  4: "&8[&c&l⚒&8] &eThời gian đợt này còn &f4 &egiây"
+  3: "&8[&c&l⚒&8] &eThời gian đợt này còn &f3 &egiây"
+  2: "&8[&c&l⚒&8] &eThời gian đợt này còn &f2 &egiây"
+  1: "&8[&c&l⚒&8] &eThời gian đợt này còn &f1 &egiây"
+
+PlayerJoin: "&aNgười chơi &f<player> &ađã vào phó bản &e(<joined>/<max>)"
+PlayerQuit: "&aNgười chơi &f<player> &ađã rời phó bản &e(<joined>/<max>)"
+Complete: "&aXin chúc mừng bạn đã hoàn thành phó bản"
+BroadcastComplete: "&aNgười chơi &f<player> &ađã hoàn thành phó bản &r<prefix>"
+
+QuitCountdown:
+  5: "&8[&c&l⚒&8] &eĐã hoàn thành phó bản, dịch chuyển sau &f5 &egiây"
+  4: "&8[&c&l⚒&8] &eĐã hoàn thành phó bản, dịch chuyển sau &f4 &egiây"
+  3: "&8[&c&l⚒&8] &eĐã hoàn thành phó bản, dịch chuyển sau &f3 &egiây"
+  2: "&8[&c&l⚒&8] &eĐã hoàn thành phó bản, dịch chuyển sau &f2 &egiây"
+  1: "&8[&c&l⚒&8] &eĐã hoàn thành phó bản, dịch chuyển sau &f1 &egiây"
+
+StageInfo:
+  Mob:
+    Title: "&eĐợt <stage> (<turn>)"
+    Subtitle: "&fSố lượng: &ex<amount>"
+  Boss:
+    Title: "&e&lKhiêu Chiến BOSS"
+    Subtitle: "&fSố lượng: &ex<amount>"
+
+RoomExist: "&cPhòng này đã tồn tại, hãy thử lại"
+RoomNotExist: "&cPhòng này không tồn tại, hãy kiểm tra lại"
+NotOnline: "&cNgười chơi này hiện tại không Online"
+GiveTurn: "&eBạn đã thêm &f<amount> &elượt phó bản cho &f<player>"
+RoomStarted: "&cPhòng đang chuẩn bị hoặc đã bắt đầu"
+RoomFull: "&cPhòng chơi này đã đầy rồi!"
+RoomNotConfig: "&cVui lòng hoàn tất quá trình tuỳ chỉnh phòng"
+JoinRoomNotConfig: "&cPhòng này Admin chưa tuỳ chỉnh xong, không thể vào được đâu!"
+NoTurn: "&cBạn không có lượt để tham gia phó bản này!"
+LeaderStart: "&aBạn có thể bắt đầu bằng lệnh &f/phoban start &ahoặc đợi đến khi đủ người"
+TimeOut: "&cPhó bản đã hết thời gian, bạn đã không hoàn thành được phó bản"
+LeaveOnJoin: "&aSử dụng &f/phoban leave &ađể thoát phó bản"
+MobsLeft: "&7Quái phó bản: &r<name> &f(<current>/<max>)"
+NoCommand: "&cKhông thể sử dụng lệnh khi đang trong phó bản"
+ListRoom: "&eDanh sách phòng: &f<rooms>"
+ConfigDone: "&aChỉnh sửa phó bản thành công"
+
+GiveTurnAll: "&eBạn đã thêm cấp lượt chơi mới cho toàn bộ người chơi"
+#GlobalSpawnSet: "&eChỉnh spawn thành công"
+
+Respawn: "&aBạn vừa chết và đã hồi sinh thành công, bạn còn &e<amount> &alượt hồi sinh"
+NoMoreRespawn: "&cBạn đã hết lượt hồi sinh, do đó bạn đã thua phó bản"
+
+Respawning:
+  Title: "&eĐang Hồi Sinh"
+  Subtitle: "&fThời gian còn &e<time>&fs"
+
+Help:
+  - "&f/phoban: &eLựa chọn phó bản và phòng chơi"
+  - "&f/phoban create <tên>: &eTạo phòng phó bản" #(phoban.admin)
+  - "&f/phoban edit <tên>: &eChỉnh phòng phó bản" #(phoban.admin)
+  - "&f/phoban add <player> <type> <amount>: &eCấp lượt phó bản" #(phoban.admin)
+  - "&f/phoban add all: &eCấp thêm lượt phó bản cho toàn bộ Player" #(phoban.admin)
+  - "&f/phoban setspawn: &eChỉnh Spawn chung cho các phòng" #(phoban.admin)
+  - "&7Khi hoàn tất sẽ được chuyển đến chỗ đã thiết lập"
+  - "&f/phoban reload: &eReload plugins" #(phoban.admin)
+  - "&f/phoban start: &eBắt đầu phòng khi là chủ phòng"
+  - "&f/phoban list: &eXem danh sách phòng đã tạo" #(phoban.admin)
+  - "&f/phoban join <tên>: &eTham gia vào phòng phó bản"

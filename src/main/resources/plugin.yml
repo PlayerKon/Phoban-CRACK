@@ -1,0 +1,10 @@
+name: PhoBan
+main: camchua.phoban.PhoBan
+version: 1.5
+author: [CamChua_VN]
+depend: [MythicMobs, WorldEdit]
+softdepend: [PlaceholderAPI]
+api-version: 1.13
+
+commands:
+  phoban:
